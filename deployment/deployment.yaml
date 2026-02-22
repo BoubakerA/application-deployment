@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: titanic
-        image: boubakera/application:v0.0.5
+        image: boubakera/application:v0.0.6
         env:
         - name: URL_RAW
           value: "https://minio.lab.sspcloud.fr/boubaker/ensae-reproductibilite/data/raw/data.parquet"
