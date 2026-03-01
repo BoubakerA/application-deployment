@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: titanic
-          image: boubakera/application:v0.0.7
+          image: boubakera/application:v0.0.8
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
